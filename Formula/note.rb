@@ -10,6 +10,12 @@ class Note < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://ghcr.io/v2/joshuachp/tap"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "c0e0b10ff8e89579b0bf14ee0ec68b592255b9fe2723d88728bcdbb7005d5ed3"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "f3e829b2c8c4be1fd0c38bc746a48d3005365a3ba405a75202ea2123ae1a02fa"
+  end
+
   depends_on "pkgconf" => :build
   depends_on "rust" => :build
   depends_on "zstd" => :build
