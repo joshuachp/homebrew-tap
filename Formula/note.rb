@@ -1,8 +1,8 @@
 class Note < Formula
   desc "Cli tool to take, search and review notes"
   homepage "https://github.com/joshuachp/note"
-  url "https://github.com/joshuachp/note/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "e5c8dca3b1bc51884f9a5b5644da31d36b75d0cb74d4b3c825b451ec354346b4"
+  url "https://github.com/joshuachp/note/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "15886ef3bd7fa29e30c028c572951c9853a3f269f0cd3b2452d54e954168c442"
   license "Apache-2.0"
 
   livecheck do
