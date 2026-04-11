@@ -12,8 +12,8 @@ class Note < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/joshuachp/tap"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "b3b36ddacbb3be3966788b66775312bc369e1010945ace21a614ebf54017082f"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "ca922913a19c883d7226d7728af22d98f3e80850ff0a773ff4a81a483dc3e590"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "45b35f97be90dbe1761f7d1077749399f0141564a7bae75ca000af6e4b72a775"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "9cd685b890fcf824130e7e6409c2419a28965d110154a5d48f4e9874f97af5bf"
   end
 
   depends_on "pkgconf" => :build
